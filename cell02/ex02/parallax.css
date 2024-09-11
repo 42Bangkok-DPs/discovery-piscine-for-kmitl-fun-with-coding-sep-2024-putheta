@@ -1,0 +1,57 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: Arial, sans-serif;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+/* Parallax Background Images */
+.parallax {
+    height: 100vh;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-image-1 {
+    background-image: url('https://i.pinimg.com/564x/65/5e/b5/655eb58a383cc884e3bf041565264146.jpg');
+}
+
+.bg-image-2 {
+    background-image: url('https://i.pinimg.com/564x/f7/6f/94/f76f94c4bcb312eb649042f4a28a3421.jpg');
+}
+
+/* Centered Message in Parallax Sections */
+.message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+/* Content Section */
+.content {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block-message {
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+}
