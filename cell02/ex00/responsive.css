@@ -1,13 +1,25 @@
-body {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+html, body {
+    height: 100%;
     margin: 0;
+    padding: 0;
 }
 
-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
+
+table{
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+}
+td {
+    padding: 20px;
+    height: 100%;
+    text-align: left;
+    font-size: 18px;
+    border: 1px solid black;
+}
+.first-cell{
+    background-color: #ffb7cb;
+}
+.second-cell{
+    background-color: #abd6ff
 }
