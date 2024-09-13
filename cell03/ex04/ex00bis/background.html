@@ -19,10 +19,13 @@
             }
             return color;
         }
-
-        function changeBackgroundColor() {
-            document.body.style.backgroundColor = getRandomColor();
-        }
+        
+        $(document).ready(function() {
+            $('#changeBG').click(function() {
+                const randomColor = getRandomColor(); 
+                $('body').css('background-color', randomColor);  
+            });
+        });
     </script>
 
 </body>
